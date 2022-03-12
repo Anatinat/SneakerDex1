@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SneakerDex</string>
+
+    <string name="app_Home">Home</string>
+    <string name="app_Search">Search</string>
+    <string name="app_Favorite">Favorite</string>
+    <string name="app_Account">Account</string>
+
+
+    <string name="search_bar">Rechercher</string>
+    <string name="autres_paires">Autres paires</string>
+
+    <string name="connexion">Connexion</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="tel">Numéro de téléphone</string>
+    <string name="cat">Category</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="deja">Vous avez déjà un compte ?</string>
+    <string name="pas">Vous n\'avez pas de compte ?</string>
+    <string name="conf">Confirmation du mot de passe</string>
+    <string name="inscrire">S\'inscrire</string>
+    <string name="admini">S\'inscrire en tant qu\'administrateur</string>
+    <string name="connecter">Se connecter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

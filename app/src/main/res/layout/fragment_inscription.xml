@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InscriptionFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/titre"
+                android:layout_marginBottom="30dp"
+                android:text="@string/inscription" />
+
+            <EditText
+                android:id="@+id/nom"
+                style="@style/edit"
+                android:hint="@string/nom" />
+
+            <EditText
+                android:id="@+id/prenom"
+                style="@style/edit"
+                android:hint="@string/prenom" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/edit"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/edit"
+                android:hint="@string/mdp"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/conf"
+                style="@style/edit"
+                android:hint="@string/conf"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                style="@style/button"
+                android:text="@string/inscrire" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/deja" />
+
+                <TextView
+                    android:id="@+id/btnSignIn"
+                    style="@style/textp"
+                    android:text="@string/connecter"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
